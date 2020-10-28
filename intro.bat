@@ -18,7 +18,7 @@
 
 
 @echo off
-
+mode con: cols=42 lines=15
 
 :MAIN
 color 0F
@@ -281,10 +281,7 @@ echo #########################################
 
 echo.
 echo.
-echo.
-echo.
-echo.
-echo.
+
 
 
 
@@ -292,4 +289,4 @@ echo.
 
 
 pause
-goto :MAIN
+menu.bat
