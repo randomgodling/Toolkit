@@ -45,7 +45,7 @@ echo.
 echo.
 echo.
 echo                                     ######
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 
@@ -72,7 +72,7 @@ echo.
 echo.
 echo.
 echo                               ############
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 echo ###############
@@ -98,7 +98,7 @@ echo.
 echo.
 echo.
 echo                         ##################
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 
@@ -126,7 +126,7 @@ echo.
 echo.
 echo.
 echo                  #########################
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 
@@ -153,7 +153,7 @@ echo.
 echo.
 echo.
 echo          #################################
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 
@@ -182,7 +182,7 @@ echo.
 echo.
 echo.
 echo #########################################
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 echo #########################################
@@ -209,7 +209,7 @@ echo ##
 echo ##
 echo ##
 echo #########################################
-ping localhost -n 1 >nul
+ping localhost -n 1.5 >nul
 cls
 
 echo #########################################
@@ -235,14 +235,14 @@ echo ##                                     ##
 echo ##                                     ##
 echo ##                                     ##
 echo #########################################
-ping localhost -n 2 >nul
+ping localhost -n 1.5 >nul
 
 cls
 echo #########################################
 echo ##                                     ##
 echo ##                                     ##
 echo ##                                     ##
-echo ##   ^>        TOOLKIT        ^<         ##
+echo ##     ^>        TOOLKIT        ^<       ##
 echo ##                                     ##
 echo ##                                     ##
 echo ##                                     ##
@@ -256,7 +256,7 @@ echo #########################################
 echo ##                                     ##
 echo ##                                     ##
 echo ##                                     ##
-echo ##         ^>  TOOLKIT  ^<               ##
+echo ##           ^>  TOOLKIT  ^<             ##
 echo ##                                     ##
 echo ##                                     ##
 echo ##                                     ##
@@ -270,9 +270,9 @@ echo #########################################
 echo ##                                     ##
 echo ##                                     ##
 echo ##                                     ##
-echo ##         ^>  TOOLKIT  ^<               ##
+echo ##           ^>  TOOLKIT  ^<             ##
 echo ##                                     ##
-echo ## ^> github.com\AdityaAparadh\Toolkit  ##
+echo ## ^> github.com/AdityaAparadh/Toolkit  ##
 echo ##                                     ##
 echo ##                                     ##
 echo #########################################
