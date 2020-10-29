@@ -9,7 +9,10 @@
 
 :: (4) Consider adding useful comments to document the code.
 
-:: (5) As a general pratice use '::' for comments instead of 'REM'. Eg ::This is a comment (✓) ; REM This is a comment (✗)
+:: (5) Use REM for inline comments. Eg.REM This is a comment
+
+:: (6) As a general pratice use '::' for multiline blocks of comments instead of 'REM'. Eg ::This is a multiline-comment (✓) ; REM This is a multiline-comment (✗)
+
 
 
 
@@ -281,7 +284,9 @@ echo #########################################
 
 echo.
 echo.
-
+:: The above code is a cool intro for the program.
+:: Later, it will contain code to check for the health of the files i.e find and repair missing files.
+:: This file opens menu.bat next.
 
 
 

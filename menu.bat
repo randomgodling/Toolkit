@@ -9,7 +9,9 @@
 
 :: (4) Consider adding useful comments to document the code.
 
-:: (5) As a general pratice use '::' for comments instead of 'REM'. Eg ::This is a comment (✓) ; REM This is a comment (✗)
+:: (5) Use REM for inline comments. Eg.REM This is a comment
+
+:: (6) As a general pratice use '::' for multiline blocks of comments instead of 'REM'. Eg ::This is a multiline-comment (✓) ; REM This is a multiline-comment (✗)
 
 
 
@@ -69,7 +71,14 @@ echo.
 echo.
 echo.
 echo You Pressed the %ERRORLEVEL%th option.
-pause
+pause  rem Above is just a placeholder
+
+:: The Options are like domains which will hold the array of actual tools.
+:: The Quick Access Bar contains frequently used tools. It can be customized by user.
+:: Settings will have general settings to configure the application
+:: More will contain other options like customization, links, extra information.
+
+
 cls
-intro.bat
+intro.bat      rem This is just a placeholder.
 exit

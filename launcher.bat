@@ -9,7 +9,10 @@
 
 :: (4) Consider adding useful comments to document the code.
 
-:: (5) As a general pratice use '::' for comments instead of 'REM'. Eg ::This is a comment (✓) ; REM This is a comment (✗)
+:: (5) Use REM for inline comments. Eg.REM This is a comment
+
+:: (6) As a general pratice use '::' for multiline blocks of comments instead of 'REM'. Eg ::This is a multiline-comment (✓) ; REM This is a multiline-comment (✗)
+
 
 
 
@@ -17,3 +20,4 @@
 mode con: cols=42 lines=15
 start /max intro.bat
 exit
+:: This is just a launcher so that the window snaps to (0,0)
